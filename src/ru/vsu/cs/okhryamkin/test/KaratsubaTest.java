@@ -11,6 +11,6 @@ public class KaratsubaTest {
         Karatsuba kr = new Karatsuba();
         BigInteger i = BigInteger.valueOf(324324);
         BigInteger j = BigInteger.valueOf(565464);
-        kr.karatsuba(i, j);
+        System.out.println(kr.karatsuba(i, j));
     }
 }
